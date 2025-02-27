@@ -34,7 +34,7 @@ class Promedio
     // Procedimiento que utiliza los números para calcular el promedio
     static void ProcesarNumero(int nota1, int nota2, int nota3, int nota4)
     {
-        decimal prom = (nota1 + nota2 + nota3 + nota4) / 4m; // Usar 2m para asegurar que se use decimal
-        Console.WriteLine($"\nPromedio: \t{prom:F2}");
+        decimal promedio = (nota1 + nota2 + nota3 + nota4) / 4m; // Usar 2m para asegurar que se use decimal
+        Console.WriteLine($"\nPromedio: \t{promedio:F2}");
     }
 }
